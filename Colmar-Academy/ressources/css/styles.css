@@ -1,0 +1,449 @@
+/*General*/
+
+html{
+  font-size: 16px;
+
+}
+
+h2{
+  font-size: 3rem;
+    font-family: 'Muli:800', sans-serif;
+    font-weight:800;
+    color: #403D4A;
+    line-height: 1.2;
+}
+
+h3{
+  font-size: 2.5rem;
+    font-family: 'Muli', sans-serif;
+    font-weight:800;
+    color: #403D4A;
+  }
+
+h4{
+  font-size: 2rem;
+    font-family: 'Muli:800', sans-serif;
+    font-weight:600;
+    color: #403D4A;
+    line-height: 1.5;
+}
+
+h5{
+  font-family: 'Muli:800', sans-serif;
+  font-size:1.25rem;
+    color: #9693A1;
+}
+
+p{
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+  font-size: 1rem;
+  color:	#5D596F;
+}
+
+span{
+  font-size: 1,25rem;
+  font-family: 'Muli', sans-serif;
+  line-height: 1.5;
+
+}
+
+
+/* nav */
+
+#logo{
+  display:inline-flex;
+  align-items: center;
+  padding-left: 1.5rem;
+}
+
+#rhalf{
+  color: #A6ACAF;
+}
+
+#logo img{
+  height: 2.5rem;
+}
+
+h1{
+  height: 2rem;
+  font-size:1.8rem;
+  padding-top: 1rem;
+  font-family: 'Muli', sans-serif;
+  font-weight:900;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+  width: 100%;
+}
+
+#navigation {
+  display: inline-block;
+  align-self: center;
+  padding: 1.5rem;
+}
+
+#navigation span{
+  padding: 0.6rem;
+}
+
+#navigation i{
+  display: none;
+
+}
+
+#navigation span:hover{
+  text-decoration: underline;
+}
+
+/* Start */
+
+#start{
+  display: flex;
+  width: 100%;
+  height: 37.5rem;
+  background-color: #D9D8DF;
+}
+
+
+#startlbox{
+  width: 60%;
+  margin: 2rem 1.5rem;
+  background-image: url('images/banner.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  flex: 1 1 auto;
+}
+
+
+
+#startrbox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 1rem;
+  width: 40%;
+  flex: 1 1 auto;
+}
+
+#startrbox span{
+  color: white;
+  background: #9A93B8;
+  padding: 0.5rem 0rem ;
+  width: 90%;
+  text-align: center;
+}
+
+#startrbox h2{
+  width: 90%;
+}
+
+#startrbox h4{
+  width: 90%;
+  margin: 1.25rem 0rem;
+}
+
+#startrbox span:hover{
+  background-color: grey;
+}
+
+/* Info */
+
+#info{
+  width: 100%;
+  display: flex;
+}
+
+
+#linfo{
+  width: 60%;
+  margin: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+#linfopic{
+  height: 25rem;
+  background-image: url('images/information-main.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#linfotxt span{
+  font-size: 1rem;
+}
+
+#linfo h3{
+  margin-top:2rem;
+  margin-bottom: 1.5rem;
+}
+
+#linfo p{
+  margin-bottom: 2.5rem;
+}
+
+#rinfo{
+  width: 40%;
+  margin: 1rem  0rem 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+#rinfo span{
+  color: #3315B0;
+}
+
+#rinfo span:hover{
+  font-style: italic;
+}
+
+/* info rarticles */
+
+#orientation,
+#campus,
+#guest{
+  height: 100%;
+  display: flex;
+}
+
+#orientationpic,
+#campuspic,
+#guestpic{
+  width: 35%;
+  margin: 1rem;
+}
+
+#orientationtxt,
+#campustxt,
+#guesttxt{
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#orientationpic{
+  background-image: url('images/information-orientation.jpg');
+  background-size: 100% 100%;
+}
+
+#campuspic{
+  background-image: url('images/information-campus.jpg');
+  background-size: 100% 100%;
+}
+
+#guestpic{
+  background-image: url('images/information-guest-lecture.jpg');
+  background-size: 100% 100%;
+}
+
+#rinfo p{
+  padding: 0.5rem 0rem;
+}
+
+#orientation:hover, #campus:hover, #guest:hover{
+  background-color: #D9D8DF;
+}
+
+/* learning */
+
+
+#class1, #class2, #class3,
+#class4, #class5, #class6{
+  margin: 0rem 2rem 2rem 2rem;
+  width: 25%;
+  height: auto;
+  flex: 1 1 auto;
+  background-color: white;
+}
+
+#class1txt, #class2txt, #class3txt,
+#class4txt, #class5txt, #class6txt{
+  padding: 1rem 0rem 1.5rem 1rem;
+}
+
+#learning{
+  background-color: #D9D8DF;
+  width: 100%;
+}
+
+#learning h3{
+  text-align: center;
+  padding-top: 2rem;
+}
+
+#learninggallery{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 2rem 2.5rem;
+  height: auto;
+}
+
+#learninggallery img{
+  width: 100%;
+}
+
+#learninggallery h5{
+  padding: 0.5rem 0rem;
+}
+
+#class1:hover,  #class2:hover,
+#class3:hover, #class4:hover,
+#class5:hover, #class6:hover{
+  background: #B5B0CB;
+  }
+
+/* exhibit */
+
+#exhibit{
+  width: 100%;
+  text-align: center;
+}
+
+#exhibitcontent{
+  display: flex;
+  padding-bottom: 2rem;
+}
+
+
+
+#lexhibit{
+  width: 60%;
+  padding: 0rem 1.5rem;
+}
+
+#lexhibittxt{
+  text-align: left;
+}
+
+#lexhibittxt h4{
+  padding: 1.5rem 0rem 0.5rem 0rem;
+}
+
+
+#exhibit h3{
+  padding: 2rem 0rem;
+}
+
+#exhibit video{
+  width: 100% ;
+}
+
+#rexhibit{
+    width: 40%;
+    margin: 0rem 0rem 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+
+  #fisma,
+  #nowthen{
+    height: 100%;
+    display: flex;
+  }
+
+  #fismapic,
+  #nowthenpic{
+    width: 35%;
+    margin: 1rem;
+    height: 75%;
+  }
+
+  #fismatxt,
+  #nowthentxt{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #fismapic{
+    background-image: url('images/thesis-fisma.jpg');
+    background-size: 100% 100%;
+  }
+
+  #nowthenpic{
+    background-image: url('images/thesis-now-and-then.jpg');
+    background-size: 100% 100%;
+  }
+
+  #fisma:hover, #nowthen:hover{
+    background-color: #D9D8DF;
+  }
+  /* Footer */
+
+  footer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: :2rem;
+  }
+
+  #disclaimer{
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    align-self: center;
+  }
+
+  #socialmedia{
+      align-self: center;
+  }
+
+
+  #footernav span{
+    padding: 0rem 0.6rem;
+  }
+
+  #footernav i{
+    padding: 0.6rem;
+  }
+
+  #footernav span:hover{
+    text-decoration: underline;
+  }
+
+  /* media */
+
+
+  @media only screen and (max-width: 470px){
+      html{
+  			width: 100%;
+  		 }
+
+  /* nav */
+
+  @media only screen and (max-width: 470px){
+       #logo h1{
+  			 display: none;
+  		 }
+
+  		 #navigation span{
+  			 display: none;
+  		 }
+
+  		 #navigation {
+  		 width: 65%;
+  		 display: flex;
+  		 justify-content: space-between;
+  	 }
+
+  	 #navigation i{
+  		 height: 100%;
+  	 }
+
+  	 #logo{
+  		 width: 35%;
+  		 display: flex;
+  		 justify-content: center;
+  		 padding: 0rem;
+  	 }
+  	}
